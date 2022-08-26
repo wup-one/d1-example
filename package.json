@@ -1,0 +1,16 @@
+{
+  "name": "abcdf",
+  "version": "0.0.0",
+  "devDependencies": {
+    "better-sqlite3": "^7.6.2"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev src/index.js --local",
+    "deploy": "wrangler publish src/index.js"
+  },
+  "dependencies": {
+    "@databases/split-sql-query": "^1.0.3",
+    "@databases/sql": "^3.2.0"
+  }
+}

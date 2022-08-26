@@ -1,0 +1,8 @@
+name = "abcdf"
+compatibility_date = "2022-08-22"
+main = "src/index.js"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "example"
+database_id = "0783a299-ce98-4231-922f-e765e44cee35"
